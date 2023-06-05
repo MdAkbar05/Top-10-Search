@@ -1,7 +1,7 @@
 {
   "name": "Frontend",
   "version": "0.1.0",
-  "homepage": "https://mdakbar05.github.io/ToptenViewer",
+  "homepage": "https://mdakbar05.github.io/Top-10-Search",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.0",

@@ -14,6 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      <App />
       <Routes>
         <Route path="/ToptenViewer" element={<App />}></Route>
         <Route path="technology" element={<Technology />}></Route>

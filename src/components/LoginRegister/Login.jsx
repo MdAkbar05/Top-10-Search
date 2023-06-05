@@ -80,7 +80,7 @@ const Login = () => {
           </Link>
         </span>
         <span className="d-block text-center">
-          <Link to="/ToptenViewer" className=" w-50 ">
+          <Link to="/" className=" w-50 ">
             Back to home
           </Link>
         </span>

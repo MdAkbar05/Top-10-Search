@@ -33,7 +33,7 @@ const Navbar = (props) => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to="/ToptenViewer" className="nav-link">
+                <Link to="/" className="nav-link">
                   Home
                 </Link>
               </li>

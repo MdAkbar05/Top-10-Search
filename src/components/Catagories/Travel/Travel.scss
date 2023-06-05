@@ -1,0 +1,51 @@
+@import "../../../MyStyleAllColor.scss";
+
+.travel{
+
+    .imgInterface{
+        background-image: url(./img/travelBG.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        // background: -webkit-linear-gradient(to bottom, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
+        // background: linear-gradient(to bottom, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+             
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        .heading{
+            color: $lightColor;
+            font-weight: 700;
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+       
+    }
+}
+
+.travel{
+    .mainSection{
+        margin-top: 20px;
+        background-color: $mainColor;
+        border-radius: 8px;
+        margin-right: 0;
+        margin-left: 0;
+
+        .mainDesc{
+            color:$lightColor;
+            font-weight: 600;
+            text-align: center;
+            
+        }
+        .card{
+            background-image: linear-gradient(#f5f7fa, #ccd3db);
+            box-shadow: 2px 0 4px 0 rgba(41,45,51,0.35);
+            color: $blackColor;
+            text-align: center;
+        }
+    }
+}

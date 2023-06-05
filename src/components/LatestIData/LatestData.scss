@@ -1,0 +1,49 @@
+@import "../../MyStyleAllColor.scss";
+.latestData{
+    // background: url(https://img.freepik.com/premium-photo/blue-paper-texture-background_45402-63.jpg?w=900);
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    background-color: $mainColor;
+    .heading{
+        color: $lightColor;
+    }
+    margin-top: 40px;
+    border-radius: 8px;
+    padding-bottom: 20px;
+}
+.LatestDataContainer{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $blackColor;
+    padding: 10px;
+    margin: 5px auto;
+    border: 1px solid $mainColor;
+    background-color: $lightColor;
+    // -webkit-backdrop-filter: blur(20px);
+    // backdrop-filter: blur(20px);
+    .title{
+        text-align: center;
+
+    }
+    img{
+        border-radius: 60%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.521);
+
+    }
+    p{
+        padding: 10px;
+        text-align: center;
+    }
+    .ViewComfyAltOutlinedIcon{
+        font-size: 40px;
+        cursor: pointer;
+    }
+}
+.LatestDataContainer:hover{
+    transition: all 0.4s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.281);
+}

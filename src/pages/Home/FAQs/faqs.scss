@@ -1,0 +1,28 @@
+@import "../../../MyStyleAllColor.scss";
+.FAQS{
+    background-color: $lightColor;
+    color: $blackColor;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+.faqItem{
+    border-bottom: 1px solid $secondaryColor;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: $lightColor;
+    color: $blackColor;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.068);
+}
+.faqItem div{
+    display: flex;
+    justify-content: space-between;
+}
+.faqItem button{
+  
+    width: 20px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

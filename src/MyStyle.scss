@@ -1,14 +1,13 @@
-@use "./components/Navbar/Navabar.scss";
-@use "./components/InterfaceSection/InterfaceSection.scss";
-@use "./App.scss";
+@use "./layouts/Navbar/Navabar.scss";
+@use "./pages/Home/InterfaceSection/InterfaceSection.scss";
 @use "./components/LoginRegister/Login.scss";
 
-@use "./components/LatestIData/LatestData.scss";
+@use "./pages/Home/LatestIData/LatestData.scss";
 
-@use "./components/FooterSection/Footer.scss";
-@use "./components/FAQs/faqs.scss";
-@use "./components/ServiceSection/Service.scss";
-@use "./components/Catagories/Technology/Technology.scss";
-@use "./components/Catagories/Travel/Travel.scss";
-@use "./components/Catagories/HealthFitness/HealthFitness.scss";
-@use "./components/Catagories/HomDecor/HomeDecor.scss";
+@use "./layouts/FooterSection/Footer.scss";
+@use "./pages/home/FAQs/faqs.scss";
+@use "./pages/home/ServiceSection/Service.scss";
+@use "./pages/Technology/Technology.scss";
+@use "./pages/Travel/Travel.scss";
+@use "./pages/HealthFitness/HealthFitness.scss";
+@use "./pages/HomDecor/HomeDecor.scss";

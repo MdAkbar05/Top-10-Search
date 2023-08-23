@@ -1,0 +1,45 @@
+@import "./../../../MyStyleAllColor.scss";
+
+.services {
+    margin-top: 40px;
+  }
+  .Services{
+    border-radius: 8px;
+    background-image: url(./img/ServiceBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+ }
+  .section-heading {
+    text-align: center;
+    color: $mainColor;
+  }
+  
+  .service-item {
+    height: 250px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #ffffff66;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+  }
+  
+  .service-item i {
+    color: $mainColor;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .service-item h3 {
+    
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: $blackColor;
+  }
+  
+  .service-item p {
+    font-size: 16px;
+  }
+  

@@ -5,6 +5,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 const Register = () => {
+  const [registerAlert, setRegisterAlert] = useState(false);
   const formik = useFormik({
     initialValues: {
       username: "",
@@ -18,10 +19,13 @@ const Register = () => {
     }),
     onSubmit: (values, { resetForm }) => {
       axios
-        .post("http://localhost:8081/signup", values)
+        .post("http://localhost:3000/signup", values)
         .then((res) => {
-          console.log("Registration Successfully");
-          <Navigate to="/ToptenViewer" />;
+          if (res.data) {
+            setRegisterAlert(true);
+          }
+          alert("Registration Successfully");
+          <Navigate to="/" />;
         })
         .catch((err) => console.log(err));
       console.log(values);
@@ -38,6 +42,7 @@ const Register = () => {
   return (
     <div className="register-container">
       <form
+        action="/signup"
         className="register-form bg-light p-lg-4 p-sm-3 rounded"
         onSubmit={formik.handleSubmit}
       >
@@ -99,7 +104,7 @@ const Register = () => {
           </Link>
         </span>
         <span className="d-block text-center">
-          <Link to="/" className=" w-50 ">
+          <Link to="/Top-10-Search" className=" w-50 ">
             Back to home
           </Link>
         </span>

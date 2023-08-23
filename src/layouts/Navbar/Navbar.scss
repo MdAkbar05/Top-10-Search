@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Source Sans Pro', sans-serif;
+@import "../../MyStyleAllColor.scss";
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+    background-color: #ffffffa2;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    color: $blackColor;
+
+    .container-fluid {
+        .collapse {
+            .navbar-nav {
+                .nav-item {
+                    font-family: 'Source Sans Pro', sans-serif;
+
+                    :hover {
+                        border-radius: 5px;
+                        transition: .3s all;
+                        box-shadow: 0 0px 5px rgba(0, 0, 0, 0.211);
+
+                    }
+
+                    a {
+                        color: $mainColor !important;
+                        font-size: 17px;
+                        font-weight: 500;
+                    }
+                }
+
+                .dropdown {
+                    
+                    .dropdown-menu {
+                        .dropdown-item {
+                            :hover {
+                                background-color: $bgColor !important;
+                                color: $blackColor !important;
+                                font-size: 18px;
+
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .navbar-brand {
+            @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+            font-family: 'Bree Serif', serif;
+            color: $mainColor;
+            font-weight: 600;
+
+        }
+    }
+
+}

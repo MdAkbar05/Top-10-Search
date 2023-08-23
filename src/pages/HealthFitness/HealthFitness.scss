@@ -1,0 +1,61 @@
+@import "../../MyStyleAllColor.scss";
+
+.health{
+    
+    .imgInterface{
+        // background-color: $mainColor;
+        background-image: url(https://img.freepik.com/premium-photo/set-sports-attributes_23-2147778577.jpg?w=900);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        //  /* fallback for old browsers */
+        // background: -webkit-linear-gradient(to bottom, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
+        // background: linear-gradient(to bottom, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+             
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        .heading{
+            color: $blackColor;
+            font-weight: 700;
+            font-size: 30px;
+            margin-bottom: 40px;
+            
+        
+        }
+       
+    }
+}
+
+.health{
+    position: relative;
+    cursor: pointer;
+    .mainSection{
+        margin-top: 20px;
+        background-color: $mainColor;
+        border-radius: 8px;
+        margin-right: 0;
+        margin-left: 0;
+
+        .mainDesc{
+            
+            color:white;
+            font-weight: 600;
+            text-align: center;
+            
+        }
+        .card{
+            background-image: linear-gradient(#f5f7fa, #ccd3db);
+            box-shadow: 2px 0 4px 0 rgba(41,45,51,0.35);
+            color: black;
+            text-align: center;
+            .title{
+                color:$mainColor;
+            }
+        }
+    }
+}

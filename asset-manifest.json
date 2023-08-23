@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.fde387ae.css",
-    "main.js": "/static/js/main.40c13935.js",
-    "static/media/ServiceBG.jpg": "/static/media/ServiceBG.ea439edc1824162aefb0.jpg",
-    "static/media/travelBG.jpg": "/static/media/travelBG.5ca122027e8069fd92c3.jpg",
-    "static/media/CardBG.jpg": "/static/media/CardBG.1117ac40e03d2df751be.jpg",
-    "static/media/InterfaceUI.jpeg": "/static/media/InterfaceUI.35a5bfe81e918c65c846.jpeg",
-    "index.html": "/index.html",
-    "main.fde387ae.css.map": "/static/css/main.fde387ae.css.map",
-    "main.40c13935.js.map": "/static/js/main.40c13935.js.map"
+    "main.css": "/Top-10-Search/static/css/main.a8a13651.css",
+    "main.js": "/Top-10-Search/static/js/main.40c13935.js",
+    "static/media/ServiceBG.jpg": "/Top-10-Search/static/media/ServiceBG.ea439edc1824162aefb0.jpg",
+    "static/media/travelBG.jpg": "/Top-10-Search/static/media/travelBG.5ca122027e8069fd92c3.jpg",
+    "static/media/CardBG.jpg": "/Top-10-Search/static/media/CardBG.1117ac40e03d2df751be.jpg",
+    "static/media/InterfaceUI.jpeg": "/Top-10-Search/static/media/InterfaceUI.35a5bfe81e918c65c846.jpeg",
+    "index.html": "/Top-10-Search/index.html",
+    "main.a8a13651.css.map": "/Top-10-Search/static/css/main.a8a13651.css.map",
+    "main.40c13935.js.map": "/Top-10-Search/static/js/main.40c13935.js.map"
   },
   "entrypoints": [
-    "static/css/main.fde387ae.css",
+    "static/css/main.a8a13651.css",
     "static/js/main.40c13935.js"
   ]
 }

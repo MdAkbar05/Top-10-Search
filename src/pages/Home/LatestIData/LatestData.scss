@@ -4,9 +4,9 @@
     // background-position: center;
     // background-repeat: no-repeat;
     // background-size: cover;
-    background-color: $mainColor;
+    background-color: #dff3fe;
     .heading{
-        color: $lightColor;
+        color: #982176;
     }
     margin-top: 40px;
     border-radius: 8px;
@@ -21,13 +21,12 @@
     color: $blackColor;
     padding: 10px;
     margin: 5px auto;
-    border: 1px solid $mainColor;
     background-color: $lightColor;
     // -webkit-backdrop-filter: blur(20px);
     // backdrop-filter: blur(20px);
     .title{
         text-align: center;
-
+        color: #982176;
     }
     img{
         border-radius: 60%;
@@ -39,11 +38,14 @@
         text-align: center;
     }
     .ViewComfyAltOutlinedIcon{
+        color: #982176;
         font-size: 40px;
         cursor: pointer;
     }
 }
 .LatestDataContainer:hover{
+    cursor: pointer;
+    border: 1px solid #982176;
     transition: all 0.4s;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.281);
 }

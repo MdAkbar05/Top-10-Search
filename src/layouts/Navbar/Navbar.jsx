@@ -26,6 +26,9 @@ const Navbar = (props) => {
         height={"20ox"}
       />
       <span> MD ...</span>
+      <Link to="/login" className="btn btn-danger mx-2">
+        Logout
+      </Link>
     </>
   );
   return (

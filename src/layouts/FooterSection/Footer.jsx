@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer bg-dark" id="footer">
       <div className="row">
-        <div className="footerArea col-sm-10 col col-lg-4 m-auto text-light">
+        <div className="footerArea col col-sm-10 col-md-6 col-lg-4 m-auto text-light text-center">
           <img className="mx-2" src={LogoText} alt="" width={100} height={25} />
           <a href="#" className="footer__link text-light d-block">
             About
@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <div className=" quickLink col col-sm-10 col-lg-4 m-auto text-light">
+        <div className=" quickLink col col-sm-10 col-md-6 col-lg-4 m-auto text-light text-center">
           <h4>Quick link</h4>
           <div className="text-left">
             <a className="link" href="#">
@@ -48,7 +48,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="EmailSend col col-sm-10 col-lg-4 m-auto text-light">
+        <div className="EmailSend col col-sm-10 col-md-6 col-lg-4 m-auto text-light text-center">
           <h4>Contact with us</h4>
           <div className="my-2">
             <input

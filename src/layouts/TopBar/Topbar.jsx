@@ -10,7 +10,7 @@ import "./Topbar.scss";
 const Topbar = () => {
   return (
     <div className="row text-center">
-      <div className="col col-6">
+      <div className="col col-lg-6 col-sm-12">
         <span>
           <ForwardToInboxIcon />
         </span>
@@ -20,7 +20,7 @@ const Topbar = () => {
         </span>
         <span>+8801879808105</span>
       </div>
-      <div className="col col-6">
+      <div className="co col-lg-6 col-sm-12">
         <a href="#">
           <FacebookIcon />
         </a>

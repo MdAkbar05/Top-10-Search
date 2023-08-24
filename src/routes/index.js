@@ -10,12 +10,14 @@ import Login from "../components/LoginRegister/Login";
 import Navbar from "../layouts/Navbar/Navbar";
 import Home from "../pages/Home";
 import Footer from "../layouts/FooterSection/Footer";
-import Ai from "../pages/Chats/Ai";
+import Ai from "../pages/TopAI/Ai";
 import ScrollToTop from "../components/ScrollToTop";
+import Topbar from "../layouts/TopBar/Topbar";
 
 const Index = () => {
   return (
     <BrowserRouter>
+      <Topbar />
       <Navbar />
       <ScrollToTop />
       <Routes>

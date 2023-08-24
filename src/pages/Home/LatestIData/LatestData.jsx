@@ -22,6 +22,10 @@ const LatestData = (props) => {
     console.log(title);
     return <Navigate to="/travel" replace />;
   }
+  if (title === "Top Ten Technology") {
+    console.log(title);
+    return <Navigate to="/technology" replace />;
+  }
   return (
     <>
       <div className="container latestData" id="latestData">

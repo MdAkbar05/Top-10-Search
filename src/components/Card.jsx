@@ -1,5 +1,5 @@
 import React from "react";
-import "./../pages/Chats/Ai.scss";
+import "../pages/TopAI/Ai.scss";
 const Card = ({ title, desc, link, img }) => {
   return (
     <div className="col-lg-4 col-md-6 col-sm-12">

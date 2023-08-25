@@ -39,7 +39,7 @@ const LatestData = (props) => {
               : datas.title.toLowerCase().includes(searchData);
           }).map((datas) => (
             <div
-              className="col-lg-5 col-md-5 col-sm-12 mx-auto-md-2  LatestDataContainer"
+              className="col-lg-5 col-md-5 col-sm-12 mx-auto-md-2 px-4  LatestDataContainer"
               onClick={() => setTitle(datas.title)}
             >
               <img

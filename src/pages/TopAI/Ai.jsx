@@ -5,7 +5,7 @@ import "./Ai.scss";
 const Ai = () => {
   return (
     <>
-      <div className="Top-Ai">
+      <div className="Top-Ai container">
         <h2 className="text-center text-danger mt-2">
           Top <span className="text-primary">Artificial Intelligence</span>
         </h2>

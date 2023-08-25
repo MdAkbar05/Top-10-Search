@@ -2,7 +2,7 @@ import React from "react";
 import "../pages/TopAI/Ai.scss";
 const Card = ({ title, desc, link, img }) => {
   return (
-    <div className="col-lg-4 col-md-6 col-sm-12">
+    <div className="col-lg-4 col-md-6 col-sm-12 p-4 ">
       <div className="card">
         <div className="cardImg">
           <img className="card-img-top" src={img} alt="Card image" />

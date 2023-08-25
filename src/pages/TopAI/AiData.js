@@ -9,7 +9,7 @@ export const AI_Data = [
     title: "TensorFlow",
     desc: "TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.",
     link: "https://www.tensorflow.org/",
-    img: "https://uploads-ssl.webflow.com/624ac40503a527cf47af4192/632096e482dbbcb9f7cca9f3_Tutorial-How-To-Train-A-Machine-Learning-Algorithm-With-TensorFlow-1024x576.png",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1200px-Tensorflow_logo.svg.png",
   },
   {
     title: "Grammarly",

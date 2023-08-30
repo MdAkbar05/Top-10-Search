@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
+
+
 // font-family: 'Roboto', sans-serif;
 // font-family: 'Source Sans Pro', sans-serif;
 @import "../../MyStyleAllColor.scss";
@@ -11,12 +14,20 @@
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     color: $blackColor;
+    
 
     .container-fluid {
+        width: 100%;
         .collapse {
             .navbar-nav {
                 .nav-item {
-                    font-family: 'Source Sans Pro', sans-serif;
+                    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+                    color: #111827;
+                    font-family: Inter;
+                    font-size: 12.75px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 15px; /* 117.647% */
 
                     :hover {
                         border-radius: 5px;
@@ -36,6 +47,13 @@
                     
                     .dropdown-menu {
                         .dropdown-item {
+                            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+                            color: #111827;
+                            font-family: Inter;
+                            font-size: 14.75px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 15px; /* 117.647% */
                             :hover {
                                 background-color: $bgColor !important;
                                 color: $blackColor !important;

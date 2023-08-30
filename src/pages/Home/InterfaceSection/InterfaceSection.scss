@@ -6,18 +6,18 @@
 .searchPanel{
     width: 50%;
     position: fixed;
-    top: 50px;
+    top: 80px;
     left: 25%;
 
 }
 .search{
     position: fixed;
-    top: 100px;
-    left: 49%;
+    top: 130px;
+    left: 0%;
 }
 .InterfaceSection{
     // background-color: $mainColor;
-    background-image: url(img/InterfaceUI.jpeg);
+    background-image: url(img/InterfaceUI2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,37 +30,101 @@
     z-index: 1000;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    
+    .searchBtn{
+        margin-top: 30px;
+    }
     .SearchCompany{
+        
         width: 90%;
-        .minHeading{
-            color: $lightColor;
+        .TextInfo{
+            margin-top: 30px;
+            margin-left: 0px;
         }
+        
         .heading{
-            font-size: 45px;
-            font-weight: 600;
+            color: var(--neutral-900, #111827);
+            font-feature-settings: 'liga' off;
+            font-family: Inter;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 72px; /* 120% */
+            letter-spacing: -1.5px;
         }
-        .minHeading, .heading, .desc{
-            margin-left: 10px;
-            text-align: center;
-        }
+        
         .desc{
+            color: var(--neutral-700, #374151);
+            font-feature-settings: 'liga' off;
+
+            /* Body lg/Regular */
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 155.556% */
             padding-top: 10px;
-            font-size: 14px;
-            margin: auto;
-            margin-bottom: 20px;
-            font-size: 20px;
-            width: 67%;
+
         }
+
+            .img{
+                height: 450px;
+                width: 100%;
+                border-radius: 40px;
+                z-index: 1000;
+                background-image: url(img/RightUI.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }        
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
    .InterfaceSection{
     width: 100%;
     height: 90vh;
+    .SearchCompany{
+        margin-top: -20px;
+        .img{
+            display: none;
+        }
+        .TextInfo{
+            width: 100%;
+        }
+        .heading{
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .desc{
+            font-size: 14px;
+        }
+
+    }
 } 
     
+
 }
+
+@media only screen and (max-width: 576px) {
+     .SearchCompany{
+         margin-top: -20px;
+         .img{
+             display: none;
+             position: absolute;
+         }
+         .TextInfo{
+             width: 100%;
+         }
+         .heading{
+             font-size: 30px;
+             font-weight: 600;
+         }
+         .desc{
+             font-size: 14px;
+         }
+ 
+     }
+ } 
+     
 
 // @media(max-width: 991px) {
 //     button.searchBtn {
@@ -68,18 +132,25 @@
 //     }
 // }
 
-@media(max-width: 768px) {
-    .minHeading, .heading, .desc{
-        
-        text-align: center;
+@media(max-width: 991px) {
+    .heading, .desc{
+        text-align: left;
     }
-    .minHeading{
-        font-size: 34px;
+    .SearchCompany{
+        .img{
+            margin-left: 1px;
+            height: 150px;
+            width: 250px;
+        }
+       
+        .heading{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .desc{
+            font-size: 14px;
+        }
+
     }
-    .heading{
-        font-size: 35px;
-    }
-    .desc{
-        font-size: 14px;
-    }
+   
 }

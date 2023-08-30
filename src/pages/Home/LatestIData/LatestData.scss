@@ -6,6 +6,13 @@
     // background-size: cover;
     background-color: #dff3fe;
     .heading{
+        font-feature-settings: 'liga' off;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600; 
+        font-size: 35px;  
+        line-height: 72px; /* 120% */
+        letter-spacing: -1.5px;
         color: #982176;
     }
     margin-top: 40px;
@@ -23,9 +30,15 @@
     width: 450px;
     margin: 5px auto;
     background-color: $lightColor;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
     // -webkit-backdrop-filter: blur(20px);
     // backdrop-filter: blur(20px);
     .title{
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px; /* 117.647% */
         text-align: center;
         color: #982176;
     }
@@ -35,6 +48,10 @@
 
     }
     p{
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+        font-family: Inter;
+        font-style: normal;
+        line-height: 22px; /* 117.647% */
         padding: 10px;
         text-align: center;
     }

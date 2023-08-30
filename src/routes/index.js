@@ -12,12 +12,10 @@ import Home from "../pages/Home";
 import Footer from "../layouts/FooterSection/Footer";
 import Ai from "../pages/TopAI/Ai";
 import ScrollToTop from "../components/ScrollToTop";
-import Topbar from "../layouts/TopBar/Topbar";
 
 const Index = () => {
   return (
     <BrowserRouter>
-      <Topbar />
       <Navbar />
       <ScrollToTop />
       <Routes>

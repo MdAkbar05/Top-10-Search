@@ -30,7 +30,7 @@ const LatestData = (props) => {
     <>
       <div className="container latestData" id="latestData">
         <div className="latestHeading">
-          <h3 className="text-center p-3 heading">Explore Latest Contents</h3>
+          <h3 className="text-center p-3 heading">Explore Top Trendings</h3>
         </div>
         <div className="row">
           {LatestDatas.filter((datas) => {

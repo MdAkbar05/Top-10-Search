@@ -66,7 +66,7 @@ const Navbar = (props) => {
               </li>
               <li className="nav-item">
                 <a href="#latestData" className="nav-link">
-                  Latest
+                  Trending
                 </a>
               </li>
               <li className="nav-item dropdown">
@@ -129,12 +129,12 @@ const Navbar = (props) => {
               </li>
               <li className="nav-item">
                 <a href="#" className="nav-link">
-                  Trending
+                  Featured
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
-                  Featured
+                <a href="#services" className="nav-link">
+                  Services
                 </a>
               </li>
               <li className="nav-item">
@@ -146,7 +146,7 @@ const Navbar = (props) => {
             {handleProfile ? (
               profile
             ) : (
-              <Link className="btn btn-outline-primary" to="/signup">
+              <Link className="btn btn-outline-primary nav-item" to="/signup">
                 Sign-Up
               </Link>
             )}

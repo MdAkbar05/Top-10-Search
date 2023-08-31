@@ -4,7 +4,7 @@ export const TechnologyData = [
     title: "Artificial intelligence",
     imgPath:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Artificial_intelligence_prompt_completion_by_dalle_mini.jpg/800px-Artificial_intelligence_prompt_completion_by_dalle_mini.jpg",
-    desc: "Artificial intelligence is the intelligence of machines or software, as opposed to the intelligence of human beings or animals",
+    desc: "Artificial intelligence is the intelligence of machines or software, as opposed to the intelligence of human beings or animals. Its can give you accuretley if explan him in details. This is a very helpful for your daily life",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export const TechnologyData = [
     title: "Machine learning",
     imgPath:
       "https://cdn.britannica.com/40/216540-138-14385CFE/How-machine-learning-is-predicting-synthetic-products.jpg?w=800&h=450&c=crop",
-    desc: "Machine learning is an umbrella term for solving problems for which development of algorithms by human programmers would be cost-prohibitive, and instead the problems are solved by helping machines 'discover' their 'own' algorithms, without needing to be explicitly told what to do by any human-developed algorithms.",
+    desc: "Machine learning is an umbrella term for solving problems for which development of algorithms by human programmers would be cost-prohibitive, and instead the problems are solved by helping machines 'discover' their 'own' algorithms by any human-developed algorithms.",
   },
   {
     id: 4,

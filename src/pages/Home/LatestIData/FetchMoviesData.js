@@ -13,9 +13,9 @@ export const LatestDatas = [
   },
   {
     id: 3,
-    title: "Top Ten Company",
-    img: "https://img.freepik.com/free-vector/people-analyzing-growth-charts_23-2148866843.jpg?w=900&t=st=1685803133~exp=1685803733~hmac=867867ce4c191c27a48af97325c5b89a7bcf18f677e9036665f123fb8aa6b7bb",
-    desc: "Topten is a chain of fashion accessory stores that sells jewelry, bags, scarves, swimsuits, hair accessories, sunglasses, and footwear.",
+    title: "Top Ten Richest Man",
+    img: "https://img.etimg.com/thumb/msid-72080897,width-650,height-488,imgsize-932145,,resizemode-75/bill-gates-l-had-briefly-topped-bezos-r-on-an-intraday-basis-last-month-after-amazon-posted-its-first-profit-drop-in-two-years-.jpg",
+    desc: "Topten ten Richest people are know with us. If your want more research on them you can explore more from our site. So let begin.",
   },
   {
     id: 4,

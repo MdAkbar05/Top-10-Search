@@ -14,10 +14,10 @@ const LatestData = (props) => {
     console.log(title);
     return <Navigate to="/chatAi" replace />;
   }
-  if (title === "Top Ten Movies (EN)") {
-    console.log(title);
-    return <Navigate to="/" replace />;
-  }
+  // if (title === "Top Ten Movies (EN)") {
+  //   console.log(title);
+  //   return <Navigate to="/" replace />;
+  // }
   if (title === "Top Ten Tour Place") {
     console.log(title);
     return <Navigate to="/travel" replace />;
@@ -26,6 +26,11 @@ const LatestData = (props) => {
     console.log(title);
     return <Navigate to="/technology" replace />;
   }
+  if (title === "Top Ten Richest Man") {
+    console.log(title);
+    return <Navigate to="/RichestMan" replace />;
+  }
+
   return (
     <>
       <div className="container latestData" id="latestData">

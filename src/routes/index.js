@@ -12,6 +12,7 @@ import Home from "../pages/Home";
 import Footer from "../layouts/FooterSection/Footer";
 import Ai from "../pages/TopAI/Ai";
 import ScrollToTop from "../components/ScrollToTop";
+import RichestMan from "../pages/RichestMan/RichestMan";
 
 const Index = () => {
   return (
@@ -23,6 +24,7 @@ const Index = () => {
         <Route path="technology" element={<Technology />}></Route>
         <Route path="travel" element={<Travel />}></Route>
         <Route path="health" element={<HealthFitness />}></Route>
+        <Route path="RichestMan" element={<RichestMan />}></Route>
         <Route path="homeDecor" element={<HomeDecor />}></Route>
         <Route path="signup" element={<Register />}></Route>
         <Route path="login" element={<Login />}></Route>

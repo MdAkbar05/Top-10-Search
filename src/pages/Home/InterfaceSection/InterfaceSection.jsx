@@ -44,7 +44,7 @@ const InterfaceSection = () => {
       <div className="container-fluid InterfaceSection" id="home">
         <div className="SearchCompany row">
           {/* <h5 className="minHeading ">Get ready to discover and be inspired</h5> */}
-          <div className="col col-lg-6 col-md-6 col-sm-6 TextInfo">
+          <div className="col col-lg-6 col-md-6 col-sm-12 TextInfo">
             <div className=" heading text-dark">
               Get ready to discover and be inspired
             </div>
@@ -69,7 +69,7 @@ const InterfaceSection = () => {
               </div>
             )}
           </div>
-          <div className="col col-lg-6 col-md-6 col-sm-6 ">
+          <div className="col col-lg-6 col-md-6 col-sm-12 ">
             <div className="img mx-lg-4 me-md-2"></div>
           </div>
           {search && SearchPanel}

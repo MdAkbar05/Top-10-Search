@@ -7,7 +7,7 @@ export const AI_Data = [
   },
   {
     title: "TensorFlow",
-    desc: "TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.",
+    desc: "TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.A particular focus on training and inference",
     link: "https://www.tensorflow.org/",
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1200px-Tensorflow_logo.svg.png",
   },

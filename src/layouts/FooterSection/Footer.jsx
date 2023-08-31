@@ -6,8 +6,14 @@ const Footer = () => {
   return (
     <footer className="footer bg-dark" id="footer">
       <div className="row">
-        <div className="footerArea col col-sm-10 col-md-6 col-lg-4 m-auto text-light text-center">
-          <img className="mx-2" src={LogoText} alt="" width={100} height={25} />
+        <div className="footerArea col col-sm-10 col-md-6 col-lg-4 ml-4 text-light text-left">
+          <img
+            className="mx-2 mb-2"
+            src={LogoText}
+            alt=""
+            width={100}
+            height={25}
+          />
           <a href="#" className="footer__link text-light d-block">
             About
           </a>

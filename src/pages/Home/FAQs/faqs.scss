@@ -13,6 +13,11 @@
     background-color: $lightColor;
     color: $blackColor;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.068);
+    h2{
+        font-feature-settings: 'liga' off;
+        font-family: Inter;
+        font-style: normal;
+    }
 }
 .faqItem div{
     display: flex;
@@ -21,7 +26,6 @@
 .faqItem button{
   
     width: 20px;
-  
     display: flex;
     align-items: center;
     justify-content: center;

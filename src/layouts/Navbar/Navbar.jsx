@@ -128,9 +128,9 @@ const Navbar = (props) => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
-                  Featured
-                </a>
+                <Link to="Add" className="nav-link">
+                  Add-Top10
+                </Link>
               </li>
               <li className="nav-item">
                 <a href="#services" className="nav-link">

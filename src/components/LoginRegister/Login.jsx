@@ -1,13 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
+import { UserContext } from "../UserContext/UserContext";
 import * as Yup from "yup";
 
 import "./Login.scss";
 
 const Login = () => {
   const [logged, setLogged] = useState(false);
+  const { setUserData } = useContext(UserContext);
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -19,19 +21,22 @@ const Login = () => {
     }),
     onSubmit: (values, { resetForm }) => {
       axios
-        .post("http://localhost:3000/login")
+        .post("http://localhost:3000/users/login", values)
         .then((res) => {
-          if (res.data) {
+          console.log(res.data);
+          if (res.data.isLoggin) {
             setLogged(true);
+            setUserData(res.data.users.username);
+            console.log(res.data.users.username);
             alert("Login successfully");
           } else {
-            alert("Information is wrong");
+            setLogged(false);
+            alert("Your Information is Wrong! Check Details in console.");
           }
         })
         .catch((err) => {
-          setUserInfo(false);
           console.log(err);
-          alert("Your Information is Wrong");
+          alert("Your Post Request is not successfuly response ");
         });
 
       resetForm({ values: "" });

@@ -19,7 +19,7 @@ const Register = () => {
     }),
     onSubmit: (values, { resetForm }) => {
       axios
-        .post("http://localhost:3000/signup", values)
+        .post("http://localhost:3000/users/signup", values)
         .then((res) => {
           if (res.data) {
             setRegisterAlert(true);
@@ -30,12 +30,6 @@ const Register = () => {
         .catch((err) => console.log(err));
       console.log(values);
       resetForm({ values: "" });
-      // const url = "http://localhost/TTDataBase/QueryUser.php";
-
-      // let SignUpData = new FormData();
-      // SignUpData.append("username", values.username);
-      // SignUpData.append("email", values.email);
-      // SignUpData.append("password", values.password);
     },
   });
 

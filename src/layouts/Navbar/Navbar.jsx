@@ -1,21 +1,14 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import LogoIcon from "./img/LogoIcon.png";
 import LogoText from "./img/LogoText.png";
-import axios from "axios";
-import { useEffect } from "react";
+import { UserContext } from "../../components/UserContext/UserContext";
 import "./Navbar.scss";
 
 const Navbar = (props) => {
-  const [handleProfile, setHandleProfile] = useState(false);
-  useEffect(() => {
-    axios.post("http://localhost:3000/login").then((res) => {
-      if (res.data) {
-        console.log(res.data);
-        setHandleProfile(res.data.data);
-      }
-    });
-  }, []);
+  const { setUserData } = useContext(UserContext);
+  const { userData } = useContext(UserContext);
+
   const profile = (
     <>
       <img
@@ -25,8 +18,12 @@ const Navbar = (props) => {
         width={"20px"}
         height={"20ox"}
       />
-      <span> MD ...</span>
-      <Link to="/login" className="btn btn-danger mx-2">
+      <span>{userData}</span>
+      <Link
+        to="/login"
+        onClick={() => setUserData(null)}
+        className="btn btn-danger mx-2"
+      >
         Logout
       </Link>
     </>
@@ -143,8 +140,8 @@ const Navbar = (props) => {
                 </a>
               </li>
             </ul>
-            {handleProfile ? (
-              profile
+            {userData ? (
+              <>{profile}</>
             ) : (
               <Link className="btn btn-outline-primary nav-item" to="/signup">
                 Sign-Up
